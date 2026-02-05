@@ -84,34 +84,3 @@ Autora
 
 Agatha
 Estudante de Tecnologia da Informação – ESAMC Santos
-
-status (ex: pago, pendente)
-
-Exemplo:
-
-data,descricao,categoria,valor,status
-2026-01-02,Pagamento cliente A,Receita,1500.00,pago
-2026-01-03,Internet,Despesa,-120.50,pago
-2026-01-08,Pagamento cliente B,Receita,2200.00,pendente
-
-### Saída gerada
-
-O script cria uma pasta output/ e gera:
-
-relatorio_YYYYMMDD_HHMMSS.txt (relatório em texto)
-
-resumo_YYYYMMDD_HHMMSS.csv (métricas em CSV)
-
-✅ Ideias de melhorias (Roadmap)
-
-Exportar relatório em PDF
-
-Suporte a leitura de Excel (.xlsx)
-
-Gráficos por categoria/mês
-
-Interface simples (CLI mais amigável ou página web)
-
-👩‍💻 Autora
-
-Agatha — Estudante de TI (ESAMC Santos)
